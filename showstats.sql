@@ -29,3 +29,5 @@ select uf, count(*) AS total
 from tb_enderecos
 group by uf
 order by total desc;
+
+SELECT nome FROM tb_cliente
